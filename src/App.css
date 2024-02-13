@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.App {
+  text-align: center;
+}
+
+.button-container {
+  margin-top: 50px;
+}
+
+.yes-button,
+.no-button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.no-button {
+  background-color: red;
+  color: white;
+}
+
+.no-button:hover {
+  transform: scale(1.1);
+}
