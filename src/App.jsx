@@ -32,6 +32,7 @@ function App() {
       </section>
       <section className="px-40">
         <div className="items-center justify-center h-full">
+          <h1 class="text-3xl font-bold tracking-tighter sm:text-5xl">Quieres ser mi valentin? <3 </h1>
           <button 
             onClick={handleYes} 
             className="px-10 bg-[#EEA5A6] w-40 h-10 rounded-lg text-white font-bold text-xl"
